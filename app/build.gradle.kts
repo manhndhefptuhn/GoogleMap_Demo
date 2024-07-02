@@ -34,8 +34,15 @@ android {
 
 dependencies {
     implementation(libs.play.services.maps)
+    implementation("com.google.maps:google-maps-services:0.18.0")
     implementation("com.google.android.gms:play-services-location:21.3.0")
     implementation("com.google.maps.android:android-maps-utils:2.2.2")
+    implementation("com.google.firebase:firebase-firestore:24.4.0")
+    implementation("com.google.firebase:firebase-core:21.1.0")
+    implementation("com.squareup.okhttp3:okhttp:4.9.2")
+    implementation("com.android.volley:volley:1.2.1")
+    implementation("androidx.drawerlayout:drawerlayout:1.1.1")
+    implementation("com.google.android.material:material:1.4.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

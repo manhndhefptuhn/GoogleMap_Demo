@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">GoogleMapDemo</string>
     <string name="title_activity_maps">MapsActivity</string>
-    <string name="my_gg_api_key">AIzaSyBDXWWuUIDRKjY8vTc4Jj1fi3OO_2jP3do</string>
+    <string name="my_gg_api_key">AIzaSyDQRxpdhh_FZteuSyUJvUWxIbIHuTCv8IU</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="search">Search...</string>
+    <string name="get_directions">Get Directions</string>
 </resources>

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Header Title"
+        android:textColor="#9e4f34"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_from_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit"
+        style="@style/input"
+        android:hint="From..."
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/et_to_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit"
+        style="@style/input"
+        android:hint="To..."
+        android:padding="8dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/button_get_directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_directions"
+        style="@style/button_find" />
+</LinearLayout>
