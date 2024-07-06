@@ -5,14 +5,14 @@
     android:padding="16dp">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher"/>
+        android:layout_width="108dp"
+        android:layout_height="105dp"
+        android:src="@drawable/img" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Header Title"
+        android:text="Find router"
         android:textColor="#9e4f34"
         android:textSize="18sp"/>
 

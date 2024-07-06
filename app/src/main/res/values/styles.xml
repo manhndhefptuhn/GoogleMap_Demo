@@ -19,6 +19,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:backgroundTint">#09304F</item>
+        <item name="android:textColor">#FFFFFF</item>
         <item name="android:textSize">15sp</item>
         <item name="cornerRadius">20dp</item>
         <item name="android:layout_marginTop">10dp</item>
