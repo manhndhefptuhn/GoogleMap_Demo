@@ -199,6 +199,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     direction(fromLocation, toLocation);
                 });
             }
+            Button buttonZoomDrawer = headerView.findViewById(R.id.button_change_zoom);
+            EditText zoomLevel = headerView.findViewById(R.id.et_zoom_level);
+            if (buttonGetDirectionsDrawer != null) {
+                buttonZoomDrawer.setOnClickListener(v -> {
+                    mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
+                            new LatLng(currentLocation.getLatitude(),
+                                    currentLocation.getLongitude()),
+                            Float.parseFloat(zoomLevel.getText().toString())));
+                });
+            }
         }
     }
     private void getLastLocation() {

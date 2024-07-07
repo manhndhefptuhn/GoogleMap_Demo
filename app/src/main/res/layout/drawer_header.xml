@@ -41,4 +41,27 @@
         android:layout_height="wrap_content"
         android:text="@string/get_directions"
         style="@style/button_find" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set zoom level"
+        android:textColor="#9e4f34"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_zoom_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit"
+        style="@style/input"
+        android:hint="0 - 22"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/button_change_zoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change zoom"
+        style="@style/button_find" />
 </LinearLayout>
